@@ -19,7 +19,6 @@
         }
     }
     
-    // Generate rental ID using current timestamp
     long timestamp = new java.util.Date().getTime();
     String rentalId = "CR" + timestamp;
 %>
